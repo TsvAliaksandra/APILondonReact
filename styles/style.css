@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding-top: 25px;
+    background-color: lightgreen;
+    -webkit-background-size:100%;
+    background-size:100%;
+    height: 70px;
+    color:dimgray;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+.searchStation, .searchNumBus{
+    margin-left:50px;
+    width: 220px;
+    background-color: powderblue;
+    color:black;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 20px;
+    float:left;
+    cursor:pointer;
+}
+
+.search{
+    width: 650px;
+    height:55px;
+    position: relative;
+    top:20px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.searchStationComponent{
+    position:relative;
+    top:40px;
+    margin: 0 auto;
+    text-align: center;
+}
+.btnSearch{
+    margin-left:15px;
+}
+
+.busNumber{
+    font-family: Arial;
+    font-size: 20px;
+    margin-top:20px;
+    text-transform: uppercase;
+    color:blue;
+}
+.inputStation{
+    padding: 5px;
+    position: relative;
+    left:5px;
+}
+.btnSearch{
+    padding:5px;
+}
+.nameStation{
+    font-family: Arial;
+    font-size: 20px;
+    margin-top:20px;
+    color:blue;
+}
+.nameStation em, .busNumber em {
+    color:indianred;
+}
